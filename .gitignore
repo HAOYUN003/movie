@@ -1,15 +1,12 @@
-# 忽略真实照片（保护隐私，只推动漫图）
+# 真实照片用 p 系列名跟踪（p01-p54.jpg），保证部署稳定不丢
 public/photos/*.jpg
 public/photos/*.jpeg
 public/photos/*.png
 !public/photos/anime_*.png
 !public/photos/._*.png
+!public/photos/p*.jpg
 
-# 原始照片备份目录（含全部真实照片，绝不上传）
-_photos_original/
-
-
-# 不忽略动漫场景图
+# 动漫场景图
 !public/photos/anime_bridge.png
 !public/photos/anime_classroom.png
 !public/photos/anime_darunfa.png
@@ -25,6 +22,9 @@ _photos_original/
 !public/photos/anime_yuedao.png
 !public/photos/anime_bath.png
 !public/photos/anime_bund.png
+
+# 原始照片备份目录（含全部真实照片，绝不上传）
+_photos_original/
 
 # 构建产物
 node_modules/

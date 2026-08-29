@@ -37,7 +37,7 @@ export const movie: Movie = {
     s03b_photo_campus: s({
       id: 's03b_photo_campus',
       kind: 'photo',
-      photo: 'photos/这张照片出现在开头的一幕.jpg',
+      photo: 'photos/p01.jpg',
       placeholder: '江苏海洋大学 · 故事开始的地方',
       hint: '故事开始的地方',
       next: 's04_bridge',
@@ -49,7 +49,7 @@ export const movie: Movie = {
       bg: 'photos/anime_bridge.png',
       animeLines: [
         { text: '2025 年 5 月 12 日，江海桥。' },
-        { text: '她让室友，来要我的联系方式。', photo: 'photos/去年512刚在一起.jpg', photoCaption: '2025.5.12 · 刚在一起' },
+        { text: '她让室友，来要我的联系方式。', photo: 'photos/p02.jpg', photoCaption: '2025.5.12 · 刚在一起' },
         { text: '她躲在桥的后面，偷偷看我。' },
         { text: '如果那天，我们就这样错过了……' },
         { text: '故事，还会开始吗？' },
@@ -120,7 +120,7 @@ export const movie: Movie = {
     s06b_photo_library: s({
       id: 's06b_photo_library',
       kind: 'photo',
-      photo: 'photos/独自自习镜头.jpg',
+      photo: 'photos/p03.jpg',
       placeholder: '平行世界 · 独自自习',
       hint: '没有遇见他的她，一个人在图书馆。',
       next: 's06b_return',
@@ -141,7 +141,7 @@ export const movie: Movie = {
     s06b_photo_alone: s({
       id: 's06b_photo_alone',
       kind: 'photo',
-      photo: 'photos/当没有遇见我独自自习的校园空镜.jpg',
+      photo: 'photos/p04.jpg',
       placeholder: '平行世界 · 空镜',
       hint: '当没有遇见我 · 独自自习的校园',
       next: 's09_ourStory_miss',
@@ -217,8 +217,8 @@ export const movie: Movie = {
       animeLines: [
         { text: '然后，有了第一个拥抱。' },
         { text: '再后来，是在教室里，第一次一起听歌。' },
-        { text: '那首歌，是 Sugar。', photo: 'photos/第一次一起听歌.jpg', photoCaption: '教室里 · 第一次一起听歌' },
-        { text: '后来每一次听到，都会想起那个夜晚。', photo: 'photos/一起听歌2.jpg', photoCaption: '那个夜晚' },
+        { text: '那首歌，是 Sugar。', photo: 'photos/p05.jpg', photoCaption: '教室里 · 第一次一起听歌' },
+        { text: '后来每一次听到，都会想起那个夜晚。', photo: 'photos/p06.jpg', photoCaption: '那个夜晚' },
       ],
       next: 's13b_anime_shower',
     }),
@@ -229,7 +229,7 @@ export const movie: Movie = {
       bg: 'photos/anime_bath.png',
       animeLines: [
         { text: '还没在一起的时候，总是想让你一直出现在我的生活里。' },
-        { text: '那天她举起沐浴露，我偷偷拍了照片。', photo: 'photos/沐浴露.jpg', photoCaption: '那瓶沐浴露' },
+        { text: '那天她举起沐浴露，我偷偷拍了照片。', photo: 'photos/p07.jpg', photoCaption: '那瓶沐浴露' },
         { text: '那张照片，我一直留着，没有删除。' },
         { text: '那大概，是她第一次出现在我的朋友圈。' },
       ],
@@ -288,7 +288,7 @@ export const movie: Movie = {
     s14b_photo_firstday: s({
       id: 's14b_photo_firstday',
       kind: 'photo',
-      photo: 'photos/去年512刚在一起.jpg',
+      photo: 'photos/p02.jpg',
       placeholder: '那一天 · 刚在一起',
       hint: '2025.5.12 · 刚在一起',
       next: 's15_pizzahut',
@@ -301,7 +301,7 @@ export const movie: Movie = {
       animeLines: [
         { text: '他第一次请她吃饭，是在大润发楼下的必胜客。' },
         { text: '那应该是……他们第一次一起吃饭吧。' },
-        { text: '她很客气，最后还和他 AA 了。', photo: 'photos/大润发.jpg', photoCaption: '大润发 · 第一次一起吃饭' },
+        { text: '她很客气，最后还和他 AA 了。', photo: 'photos/p08.jpg', photoCaption: '大润发 · 第一次一起吃饭' },
         { text: '他不停地把菜单翻来翻去，其实一个字也没看进去。' },
         { text: '她低着头，用叉子慢慢卷着面条，卷了好几次，才吃一口。' },
       ],
@@ -352,10 +352,10 @@ export const movie: Movie = {
       animeLines: [
         { text: '这家店真难找——停车停了好久，找电梯又找了好久。' },
         { text: '等坐下来的时候，连紧张都变成了好笑。' },
-        { text: '吃完饭，他们去逛大润发。', photo: 'photos/大润发.jpg', photoCaption: '大润发 · 货架之间' },
+        { text: '吃完饭，他们去逛大润发。', photo: 'photos/p08.jpg', photoCaption: '大润发 · 货架之间' },
         { text: '在货架之间走来走去，明明什么也没买，却走了很久很久。' },
         { text: '她忽然说：我从来没想到，我们会过上这么平淡的生活。' },
-        { text: '像婚后柴米油盐那样。可如果以后真的是这样的日子——', photo: 'photos/大润发.jpg', photoCaption: '柴米油盐的平淡' },
+        { text: '像婚后柴米油盐那样。可如果以后真的是这样的日子——', photo: 'photos/p08.jpg', photoCaption: '柴米油盐的平淡' },
         { text: '那也会非常非常幸福。' },
         { text: '他们买了猫条，还买了一个小熊的纪念挂件。' },
       ],
@@ -375,7 +375,7 @@ export const movie: Movie = {
     s20b_photo_yueyangji: s({
       id: 's20b_photo_yueyangji',
       kind: 'photo',
-      photo: 'photos/去年五月越洋记.jpg',
+      photo: 'photos/p09.jpg',
       placeholder: '越洋记 · 越南米粉店',
       hint: '那家常去的越南米粉店 · 越洋记',
       next: 's20c_photo_yueyangji2',
@@ -384,7 +384,7 @@ export const movie: Movie = {
     s20c_photo_yueyangji2: s({
       id: 's20c_photo_yueyangji2',
       kind: 'photo',
-      photo: 'photos/越洋记2.jpg',
+      photo: 'photos/p10.jpg',
       placeholder: '越洋记 · 再去一次',
       hint: '去了很多次 · 还是想再去',
       next: 's20d_photo_birthday',
@@ -393,7 +393,7 @@ export const movie: Movie = {
     s20d_photo_birthday: s({
       id: 's20d_photo_birthday',
       kind: 'photo',
-      photo: 'photos/去年生日.jpg',
+      photo: 'photos/p11.jpg',
       placeholder: '在一起第 3 天 · 她的生日',
       hint: '2025.5.15 · 她的生日，在一起的第 3 天',
       next: 's20e_photo_birthday2',
@@ -402,7 +402,7 @@ export const movie: Movie = {
     s20e_photo_birthday2: s({
       id: 's20e_photo_birthday2',
       kind: 'photo',
-      photo: 'photos/去年生日 (2).jpg',
+      photo: 'photos/p12.jpg',
       placeholder: '她的生日',
       hint: '2025.5.15 · 她的生日',
       next: 's20f_strait',
@@ -434,9 +434,9 @@ export const movie: Movie = {
       bg: 'photos/anime_shouxihu.png',
       animeLines: [
         { text: '端午，他们一起去了扬州。' },
-        { text: '瘦西湖的柳树，白墙黛瓦。', photo: 'photos/瘦西湖.jpg', photoCaption: '扬州 · 瘦西湖' },
-        { text: '走在东关街的石板路上。', photo: 'photos/yangzhou_street.jpg', photoCaption: '扬州 · 街头' },
-        { text: '那晚，他们住在扬州的酒店里。', photo: 'photos/扬州酒店bathroom_kiss.jpg', photoCaption: '扬州 · 酒店那晚' },
+        { text: '瘦西湖的柳树，白墙黛瓦。', photo: 'photos/p13.jpg', photoCaption: '扬州 · 瘦西湖' },
+        { text: '走在东关街的石板路上。', photo: 'photos/p14.jpg', photoCaption: '扬州 · 街头' },
+        { text: '那晚，他们住在扬州的酒店里。', photo: 'photos/p15.jpg', photoCaption: '扬州 · 酒店那晚' },
         { text: '考完期末，又一起去了上海。' },
       ],
       next: 's23c_anime_bund',
@@ -448,7 +448,7 @@ export const movie: Movie = {
       bg: 'photos/anime_bund.png',
       animeLines: [
         { text: '上海，外滩。' },
-        { text: '黄浦江边的风，灯火通明。', photo: 'photos/shanghai_bund.jpg', photoCaption: '上海 · 外滩夜景' },
+        { text: '黄浦江边的风，灯火通明。', photo: 'photos/p16.jpg', photoCaption: '上海 · 外滩夜景' },
       ],
       next: 's23c_choice_bund',
     }),
@@ -483,10 +483,10 @@ export const movie: Movie = {
       bg: 'photos/anime_hainan.png',
       animeLines: [
         { text: '然后暑假，因为她说想他——' },
-        { text: '他直接跨越了两千公里，来到海南。', photo: 'photos/陵水清水湾.jpg', photoCaption: '海南 · 陵水' },
+        { text: '他直接跨越了两千公里，来到海南。', photo: 'photos/p17.jpg', photoCaption: '海南 · 陵水' },
         { text: '海风，椰树，白沙，是海南。' },
-        { text: '他们租了一辆三轮车，在夜里骑过灯塔。', photo: 'photos/陵水清水湾.jpg', photoCaption: '海南 · 陵水清水湾' },
-        { text: '穿过新村夜市，路过一个没有路标的路牌。', photo: 'photos/新村夜市.jpg', photoCaption: '新村夜市 · 那晚的车' },
+        { text: '他们租了一辆三轮车，在夜里骑过灯塔。', photo: 'photos/p17.jpg', photoCaption: '海南 · 陵水清水湾' },
+        { text: '穿过新村夜市，路过一个没有路标的路牌。', photo: 'photos/p18.jpg', photoCaption: '新村夜市 · 那晚的车' },
         { text: '那晚的风，那晚的车，她说她到现在都记得特别清楚。' },
         { text: '他说，他也记得。' },
       ],
@@ -496,7 +496,7 @@ export const movie: Movie = {
     s23e_photo_haikou_cruise: s({
       id: 's23e_photo_haikou_cruise',
       kind: 'photo',
-      photo: 'photos/haikou_cruise.jpg',
+      photo: 'photos/p19.jpg',
       placeholder: '海口 · 夜游船',
       hint: '海口 · 夜游船',
       next: 's23f_photo_lingshui',
@@ -505,7 +505,7 @@ export const movie: Movie = {
     s23f_photo_lingshui: s({
       id: 's23f_photo_lingshui',
       kind: 'photo',
-      photo: 'photos/陵水清水湾.jpg',
+      photo: 'photos/p17.jpg',
       placeholder: '陵水 · 清水湾',
       hint: '陵水 · 清水湾那晚',
       next: 's23fb_photo_makeup',
@@ -514,7 +514,7 @@ export const movie: Movie = {
     s23fb_photo_makeup: s({
       id: 's23fb_photo_makeup',
       kind: 'photo',
-      photo: 'photos/海南最惊艳的一次化妆.jpg',
+      photo: 'photos/p20.jpg',
       placeholder: '海南 · 她',
       hint: '海南最惊艳的一次化妆',
       next: 's23g_photo_market',
@@ -523,7 +523,7 @@ export const movie: Movie = {
     s23g_photo_market: s({
       id: 's23g_photo_market',
       kind: 'photo',
-      photo: 'photos/新村夜市.jpg',
+      photo: 'photos/p18.jpg',
       placeholder: '陵水 · 新村夜市',
       hint: '新村夜市 · 那晚的车',
       next: 's23g2_photo_rice',
@@ -532,7 +532,7 @@ export const movie: Movie = {
     s23g2_photo_rice: s({
       id: 's23g2_photo_rice',
       kind: 'photo',
-      photo: 'photos/去新村夜市前吃的糯米饭忘不了.jpg',
+      photo: 'photos/p21.jpg',
       placeholder: '去夜市前 · 糯米饭',
       hint: '去新村夜市前吃的糯米饭 · 忘不了',
       next: 's23g3_photo_rain',
@@ -541,7 +541,7 @@ export const movie: Movie = {
     s23g3_photo_rain: s({
       id: 's23g3_photo_rain',
       kind: 'photo',
-      photo: 'photos/在海口的最后一天下了很大的雨.jpg',
+      photo: 'photos/p22.jpg',
       placeholder: '海口 · 最后一天 · 大雨',
       hint: '在海口的最后一天 · 下了很大的雨',
       next: 's23g4_photo_lastmeal',
@@ -550,7 +550,7 @@ export const movie: Movie = {
     s23g4_photo_lastmeal: s({
       id: 's23g4_photo_lastmeal',
       kind: 'photo',
-      photo: 'photos/离开海口前最后一顿你要去除浮沫.jpg',
+      photo: 'photos/p23.jpg',
       placeholder: '离开海口前 · 最后一顿',
       hint: '离开海口前的最后一顿 · 她在去除浮沫，那首歌很应景，他一直很不舍得',
       next: 's24_airport',
@@ -590,9 +590,9 @@ export const movie: Movie = {
       bg: 'photos/anime_suzhou.png',
       animeLines: [
         { text: '去年国庆，她来苏州。' },
-        { text: '第一天，他们一起逛了街、吃了哑巴生煎。', photo: 'photos/suzhou_metro.jpg', photoCaption: '苏州 · 地铁 · 西树泡芙' },
+        { text: '第一天，他们一起逛了街、吃了哑巴生煎。', photo: 'photos/p24.jpg', photoCaption: '苏州 · 地铁 · 西树泡芙' },
         { text: '粉墙黛瓦，青石板路，两个人并肩走。' },
-        { text: '他不知道从哪变出一束花——', photo: 'photos/suzhou_flowers.jpg', photoCaption: '苏州 · 那束花' },
+        { text: '他不知道从哪变出一束花——', photo: 'photos/p25.jpg', photoCaption: '苏州 · 那束花' },
         { text: '原来，他早就和她闺蜜串通好了。' },
         { text: '她说过很多次喜欢，他记成了那天她眼睛亮起来的样子。' },
       ],
@@ -602,7 +602,7 @@ export const movie: Movie = {
     s27b_photo_hotel: s({
       id: 's27b_photo_hotel',
       kind: 'photo',
-      photo: 'photos/去年国庆酒店.jpg',
+      photo: 'photos/p26.jpg',
       placeholder: '苏州 · 去年国庆 · 酒店',
       hint: '去年国庆 · 她来苏州',
       next: 's27c_photo_metro',
@@ -611,7 +611,7 @@ export const movie: Movie = {
     s27c_photo_metro: s({
       id: 's27c_photo_metro',
       kind: 'photo',
-      photo: 'photos/suzhou_metro.jpg',
+      photo: 'photos/p24.jpg',
       placeholder: '苏州 · 地铁',
       hint: '苏州 · 地铁 · 西树泡芙',
       next: 's27d_photo_dumplings',
@@ -620,7 +620,7 @@ export const movie: Movie = {
     s27d_photo_dumplings: s({
       id: 's27d_photo_dumplings',
       kind: 'photo',
-      photo: 'photos/suzhou_dumplings.jpg',
+      photo: 'photos/p27.jpg',
       placeholder: '苏州 · 街边',
       hint: '煎饺 · 馄饨 · 那一口',
       next: 's27e_photo_meal',
@@ -629,7 +629,7 @@ export const movie: Movie = {
     s27e_photo_meal: s({
       id: 's27e_photo_meal',
       kind: 'photo',
-      photo: 'photos/suzhou_meal.jpg',
+      photo: 'photos/p28.jpg',
       placeholder: '苏州 · 吃饭',
       hint: '一起去吃的那顿饭',
       next: 's27f_photo_flowers',
@@ -638,7 +638,7 @@ export const movie: Movie = {
     s27f_photo_flowers: s({
       id: 's27f_photo_flowers',
       kind: 'photo',
-      photo: 'photos/suzhou_flowers.jpg',
+      photo: 'photos/p25.jpg',
       placeholder: '苏州 · 送花',
       hint: '那束花 · 和她亮起来的眼睛',
       next: 's27g_photo_haidilao',
@@ -647,7 +647,7 @@ export const movie: Movie = {
     s27g_photo_haidilao: s({
       id: 's27g_photo_haidilao',
       kind: 'photo',
-      photo: 'photos/去年11月吃海底捞.jpg',
+      photo: 'photos/p29.jpg',
       placeholder: '去年11月 · 海底捞',
       hint: '去年11月 · 一起去吃的海底捞',
       next: 's27h_photo_november',
@@ -656,7 +656,7 @@ export const movie: Movie = {
     s27h_photo_november: s({
       id: 's27h_photo_november',
       kind: 'photo',
-      photo: 'photos/去年1月日常.jpg',
+      photo: 'photos/p30.jpg',
       placeholder: '去年11月 · 日常',
       hint: '去年11月 · 平平常常的日常',
       next: 's27i_photo_march',
@@ -665,7 +665,7 @@ export const movie: Movie = {
     s27i_photo_march: s({
       id: 's27i_photo_march',
       kind: 'photo',
-      photo: 'photos/今年三月日常二食堂.jpg',
+      photo: 'photos/p31.jpg',
       placeholder: '今年3月 · 二食堂',
       hint: '今年3月 · 二食堂日常',
       next: 's28_ch6',
@@ -694,7 +694,7 @@ export const movie: Movie = {
     s29a_photo_warm: s({
       id: 's29a_photo_warm',
       kind: 'photo',
-      photo: 'photos/去年12月我做模电课设给我送温暖.jpg',
+      photo: 'photos/p32.jpg',
       placeholder: '去年12月 · 模电课设 · 送温暖',
       hint: '他做模电课设的时候，她来送温暖',
       next: 's29b_photo_ring',
@@ -703,7 +703,7 @@ export const movie: Movie = {
     s29b_photo_ring: s({
       id: 's29b_photo_ring',
       kind: 'photo',
-      photo: 'photos/去年12月期末结束一起做戒指.jpg',
+      photo: 'photos/p33.jpg',
       placeholder: '去年12月 · 一起做戒指',
       hint: '考完期末 · 一起做的戒指',
       next: 's30_redo',
@@ -745,7 +745,7 @@ export const movie: Movie = {
       kind: 'anime',
       bg: 'photos/anime_gugong.png',
       animeLines: [
-        { text: '北京，红墙黄瓦，故宫。', photo: 'photos/beijing_gugong.jpg', photoCaption: '北京 · 故宫' },
+        { text: '北京，红墙黄瓦，故宫。', photo: 'photos/p34.jpg', photoCaption: '北京 · 故宫' },
         { text: '旅途上有小小的争执，但他们仍然一起走完了全程。' },
       ],
       next: 's32c_anime_tianjin',
@@ -757,7 +757,7 @@ export const movie: Movie = {
       bg: 'photos/anime_tianjin.png',
       animeLines: [
         { text: '然后，他们去了天津。' },
-        { text: '西洋式的老建筑，傍晚的街灯。', photo: 'photos/tianjin.jpg', photoCaption: '天津 · 街头' },
+        { text: '西洋式的老建筑，傍晚的街灯。', photo: 'photos/p35.jpg', photoCaption: '天津 · 街头' },
         { text: '吃了很好吃的东西，一起走过的街。' },
       ],
       next: 's32d_photo_tianjin',
@@ -766,7 +766,7 @@ export const movie: Movie = {
     s32d_photo_tianjin: s({
       id: 's32d_photo_tianjin',
       kind: 'photo',
-      photo: 'photos/tianjin.jpg',
+      photo: 'photos/p35.jpg',
       placeholder: '天津 · 街头',
       hint: '天津',
       next: 's33_ch7',
@@ -798,7 +798,7 @@ export const movie: Movie = {
     s34b_photo_salmon: s({
       id: 's34b_photo_salmon',
       kind: 'photo',
-      photo: 'photos/今年生日自助.jpg',
+      photo: 'photos/p36.jpg',
       placeholder: '生日 · 日料自助',
       hint: '4.5 生日 · 日料自助',
       next: 's34bb_photo_wxtd',
@@ -807,7 +807,7 @@ export const movie: Movie = {
     s34bb_photo_wxtd: s({
       id: 's34bb_photo_wxtd',
       kind: 'photo',
-      photo: 'photos/万象天地.jpg',
+      photo: 'photos/p37.jpg',
       placeholder: '生日 · 万象天地',
       hint: '万象天地 · 那天的你',
       next: 's34d_photo_qingming',
@@ -816,7 +816,7 @@ export const movie: Movie = {
     s34d_photo_qingming: s({
       id: 's34d_photo_qingming',
       kind: 'photo',
-      photo: 'photos/今年四月份清明节结束后返校看到的柳絮.jpg',
+      photo: 'photos/p38.jpg',
       placeholder: '清明 · 返校 · 柳絮',
       hint: '今年四月 · 清明结束，返校路上看到的柳絮',
       next: 's34c2_photo_ganyu1',
@@ -825,7 +825,7 @@ export const movie: Movie = {
     s34c2_photo_ganyu1: s({
       id: 's34c2_photo_ganyu1',
       kind: 'photo',
-      photo: 'photos/赣榆蓝莓1.jpg',
+      photo: 'photos/p39.jpg',
       placeholder: '赣榆 · 采蓝莓',
       hint: '劳动节 · 赣榆 · 采蓝莓',
       next: 's34c3_photo_ganyu2',
@@ -834,7 +834,7 @@ export const movie: Movie = {
     s34c3_photo_ganyu2: s({
       id: 's34c3_photo_ganyu2',
       kind: 'photo',
-      photo: 'photos/赣榆蓝莓2.jpg',
+      photo: 'photos/p40.jpg',
       placeholder: '赣榆 · 她',
       hint: '采蓝莓那天 · 她',
       next: 's34c4_photo_ganyu3',
@@ -843,7 +843,7 @@ export const movie: Movie = {
     s34c4_photo_ganyu3: s({
       id: 's34c4_photo_ganyu3',
       kind: 'photo',
-      photo: 'photos/赣榆蓝莓3.jpg',
+      photo: 'photos/p41.jpg',
       placeholder: '赣榆 · 蓝莓园',
       hint: '蓝莓园里',
       next: 's34d2_photo_bister',
@@ -852,7 +852,7 @@ export const movie: Movie = {
     s34d2_photo_bister: s({
       id: 's34d2_photo_bister',
       kind: 'photo',
-      photo: 'photos/比斯特.jpg',
+      photo: 'photos/p42.jpg',
       placeholder: '生日 · 比斯特购物村',
       hint: '生日那天 · 比斯特购物村',
       next: 's34g_photo_anniversary',
@@ -861,7 +861,7 @@ export const movie: Movie = {
     s34g_photo_anniversary: s({
       id: 's34g_photo_anniversary',
       kind: 'photo',
-      photo: 'photos/512纪念日.jpg',
+      photo: 'photos/p43.jpg',
       placeholder: '5.12 纪念日',
       hint: '2026.5.12 · 纪念日那顿饭',
       next: 's34h_photo_anniversary2',
@@ -870,7 +870,7 @@ export const movie: Movie = {
     s34h_photo_anniversary2: s({
       id: 's34h_photo_anniversary2',
       kind: 'photo',
-      photo: 'photos/今年512纪念日.jpg',
+      photo: 'photos/p44.jpg',
       placeholder: '5.12 纪念日',
       hint: '纪念日 · 两个人',
       next: 's34i_photo_watermelon',
@@ -879,7 +879,7 @@ export const movie: Movie = {
     s34i_photo_watermelon: s({
       id: 's34i_photo_watermelon',
       kind: 'photo',
-      photo: 'photos/今年五月西瓜.jpg',
+      photo: 'photos/p45.jpg',
       placeholder: '学校 · 五月 · 西瓜',
       hint: '今年五月 · 学校日常',
       next: 's35_korea',
@@ -892,7 +892,7 @@ export const movie: Movie = {
       animeLines: [
         { text: '然后，他们为了一趟旅行，一起备考了整整两个月。' },
         { text: '韩国。釜山，首尔。一周。' },
-        { text: '海云台的沙滩，海鸥。', photo: 'photos/釜山海云台.jpg', photoCaption: '釜山 · 海云台' },
+        { text: '海云台的沙滩，海鸥。', photo: 'photos/p46.jpg', photoCaption: '釜山 · 海云台' },
         { text: '故事讲到这里，好像已经写下了很长很长的一页。' },
       ],
       next: 's35a_photo_busan',
@@ -901,7 +901,7 @@ export const movie: Movie = {
     s35a_photo_busan: s({
       id: 's35a_photo_busan',
       kind: 'photo',
-      photo: 'photos/busan_cable.jpg',
+      photo: 'photos/p47.jpg',
       placeholder: '釜山 · 去松岛的路上',
       hint: '釜山 · 去松岛缆车的路上',
       next: 's35a2_photo_haeundae',
@@ -910,7 +910,7 @@ export const movie: Movie = {
     s35a2_photo_haeundae: s({
       id: 's35a2_photo_haeundae',
       kind: 'photo',
-      photo: 'photos/釜山海云台.jpg',
+      photo: 'photos/p46.jpg',
       placeholder: '釜山 · 海云台',
       hint: '釜山 · 海云台',
       next: 's35a3_photo_seaside',
@@ -919,7 +919,7 @@ export const movie: Movie = {
     s35a3_photo_seaside: s({
       id: 's35a3_photo_seaside',
       kind: 'photo',
-      photo: 'photos/釜山海边.jpg',
+      photo: 'photos/p48.jpg',
       placeholder: '釜山 · 海边',
       hint: '釜山 · 海边',
       next: 's35a4_photo_makeup',
@@ -928,7 +928,7 @@ export const movie: Movie = {
     s35a4_photo_makeup: s({
       id: 's35a4_photo_makeup',
       kind: 'photo',
-      photo: 'photos/釜山刚刚化好妆回复老师消息.jpg',
+      photo: 'photos/p49.jpg',
       placeholder: '釜山 · 化好妆',
       hint: '釜山 · 刚刚化好妆',
       next: 's35a5_photo_lastnight',
@@ -937,7 +937,7 @@ export const movie: Movie = {
     s35a5_photo_lastnight: s({
       id: 's35a5_photo_lastnight',
       kind: 'photo',
-      photo: 'photos/釜山最后一晚.jpg',
+      photo: 'photos/p50.jpg',
       placeholder: '釜山 · 最后一晚',
       hint: '釜山 · 最后一晚',
       next: 's35a6_anime_seoul',
@@ -949,7 +949,7 @@ export const movie: Movie = {
       bg: 'photos/anime_seoul.png',
       animeLines: [
         { text: '然后到了首尔。' },
-        { text: '霓虹灯，咖啡店，圣水洞的街头。', photo: 'photos/首尔圣水洞.jpg', photoCaption: '首尔 · 圣水洞' },
+        { text: '霓虹灯，咖啡店，圣水洞的街头。', photo: 'photos/p51.jpg', photoCaption: '首尔 · 圣水洞' },
         { text: '那几天，走在异国的街头，身边有她。' },
       ],
       next: 's35b_photo_seoul',
@@ -958,7 +958,7 @@ export const movie: Movie = {
     s35b_photo_seoul: s({
       id: 's35b_photo_seoul',
       kind: 'photo',
-      photo: 'photos/首尔圣水洞.jpg',
+      photo: 'photos/p51.jpg',
       placeholder: '首尔 · 圣水洞',
       hint: '首尔 · 圣水洞',
       next: 's35bb_photo_seoul_metro',
@@ -967,7 +967,7 @@ export const movie: Movie = {
     s35bb_photo_seoul_metro: s({
       id: 's35bb_photo_seoul_metro',
       kind: 'photo',
-      photo: 'photos/seoul_metro.jpg',
+      photo: 'photos/p52.jpg',
       placeholder: '首尔 · 地铁',
       hint: '首尔 · 去圣水的路上',
       next: 's35bc_photo_seoul_night',
@@ -976,7 +976,7 @@ export const movie: Movie = {
     s35bc_photo_seoul_night: s({
       id: 's35bc_photo_seoul_night',
       kind: 'photo',
-      photo: 'photos/seoul.jpg',
+      photo: 'photos/p53.jpg',
       placeholder: '首尔 · 夜街',
       hint: '首尔 · 那几天',
       next: 's35bd_photo_incheon',
@@ -985,7 +985,7 @@ export const movie: Movie = {
     s35bd_photo_incheon: s({
       id: 's35bd_photo_incheon',
       kind: 'photo',
-      photo: 'photos/仁川机场回上海.jpg',
+      photo: 'photos/p54.jpg',
       placeholder: '仁川机场 · 回上海',
       hint: '仁川机场 · 回上海',
       next: 's35c_narration_home',
